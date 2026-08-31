@@ -1,13 +1,13 @@
 cask "nudgeline" do
-  version "0.2.194"
-  sha256 "eabd6817f45792917b8dcdef48f22621301dc8fbbb20e0ce92f49fcbfdab36ed"
+  version "0.2.205"
+  sha256 "7689eb80ed1b68bbf8a377ec9678cb4394eca136dded27f4724f1069cb3bc6bf"
 
   url "https://github.com/rareram/NudgeLine/releases/download/v#{version}/NudgeLine.zip"
   name "NudgeLine"
   desc "Subtle macOS screen-edge timeline bar for today's calendar events"
   homepage "https://github.com/rareram/NudgeLine"
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
 
   preflight do
     # 1. 업그레이드 전 실행 중인 구버전 NudgeLine 안전 종료

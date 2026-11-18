@@ -1,6 +1,6 @@
 cask "nudgeline" do
-  version "0.4.442"
-  sha256 "26bbc5cab8e55c50cdf70c1356b2be1b47214d5909b7586e2e45d423b6366487"
+  version "0.4.452"
+  sha256 "4a0c6070c8a9154428b0ccc4efac8ca1effbc74e7f14444a342468716641808a"
 
   url "https://github.com/rareram/NudgeLine/releases/download/v#{version}/NudgeLine.zip"
   name "NudgeLine"
